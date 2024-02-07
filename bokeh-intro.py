@@ -303,11 +303,6 @@ grid = gridplot([[plot1, plot2], [plot3, plot4]])
 show(grid)
 
 # +
-from bokeh.io import export_svg
-
-export_svg(grid, filename="plot.svg")
-
-# +
 from sklearn.datasets import load_iris
 import pandas as pd
 
